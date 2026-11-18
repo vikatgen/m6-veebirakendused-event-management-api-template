@@ -35,8 +35,8 @@ Iga issue tehakse eraldi harus ja jõuab `master`-isse pull requesti kaudu. Nii 
    ```
 2. Lepi kokku haru nimed ja commit'ide kuju:
    ```bash
-   git switch -c feat/5-docker-postgres      # issue number + lühike nimi
-   git commit -m "feat: postgres docker composes"
+   git switch -c chore/4-too-voog      # issue number + lühike nimi
+   git commit -m "chore: töövoog ja pr mall"
    ```
    | Eesliide | Millal |
    |---|---|
@@ -48,9 +48,11 @@ Iga issue tehakse eraldi harus ja jõuab `master`-isse pull requesti kaudu. Nii 
    | `test:` | testid |
 3. Pull request:
    ```bash
-   git push -u origin feat/5-docker-postgres
-   gh pr create --fill
+   git push -u origin chore/4-too-voog
    ```
+   Seejärel tee GitHubis pull request (**Compare & pull request**).
+
+   > PR mall rakendub alates **järgmisest** PR-ist. See PR alles lisab malli `master`-isse.
 4. Kirjuta töövoog README-sse lühidalt (mõni lause + ülaltoodud tabel).
 5. Commit selle issue enda muudatus eraldi harus `chore/4-too-voog`, tee sellest esimene PR ja liida see.
 
@@ -71,7 +73,7 @@ Iga issue tehakse eraldi harus ja jõuab `master`-isse pull requesti kaudu. Nii 
 
 - [Conventional Commits](https://www.conventionalcommits.org/)
 - [GitHub: Linking a pull request to an issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue)
-- [GitHub CLI: gh pr create](https://cli.github.com/manual/gh_pr_create)
+- [GitHub: Creating a pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
 
 ## Sõltub
 

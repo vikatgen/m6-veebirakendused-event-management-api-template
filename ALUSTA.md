@@ -21,7 +21,7 @@ git clone git@github.com:<sinu-kasutaja>/<repo-nimi>.git
 
 ## 4. Vaja on
 
-Node.js 22+, Git, Docker Desktop, GitHub CLI (`gh`), koodiredaktor.
+Node.js 22+, Git, Docker Desktop, koodiredaktor.
 
 ## 5. Tööjärjekord
 

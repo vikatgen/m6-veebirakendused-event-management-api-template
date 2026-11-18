@@ -88,7 +88,7 @@ Kui stiili ei kontrolli tööriist, hakkavad failid üksteisest erinema (jutumä
    npm run lint
    npm run typecheck
    ```
-   Vaata `git diff`: mis Prettier muutis?
+   Vaata `git diff`: mis Prettier muutis? (Kerimine nooltega, **välja tuleb `q`-ga**.)
 9. Lisa README käskude tabelisse `lint`, `format`, `format:check` ja commit:
    ```bash
    git add .
