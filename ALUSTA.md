@@ -8,7 +8,8 @@ Ehitad piletirakenduse backend'i 48 sammuga. Iga samm on üks issue.
 
 ## 2. Loo issued
 
-Oma repos: **Actions** → **Seadista issued** → **Run workflow**. Oota ~2 min.
+1. Oma repos ava fail `.github/workflows/seadista-issued.yml` → ✏️ → lisa lõppu tühi rida → **Commit changes**. (Ilma selleta GitHub workflow'd ei näe.)
+2. **Actions** → **Seadista issued** → **Run workflow**. Oota ~2 min.
 
 Tee see enne esimest pull requesti, siis on issue number = sammu number.
 
